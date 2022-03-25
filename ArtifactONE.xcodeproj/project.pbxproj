@@ -11,6 +11,10 @@
 		EFF1548627EE009A0087DB3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1548527EE009A0087DB3D /* ContentView.swift */; };
 		EFF1548827EE009C0087DB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF1548727EE009C0087DB3D /* Assets.xcassets */; };
 		EFF1548B27EE009C0087DB3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF1548A27EE009C0087DB3D /* Preview Assets.xcassets */; };
+		EFF1549227EE0C4F0087DB3D /* NonModalButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1549127EE0C4F0087DB3D /* NonModalButtonView.swift */; };
+		EFF1549427EE0CBB0087DB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF1549327EE0CBB0087DB3D /* Main.storyboard */; };
+		EFF1549827EE11420087DB3D /* KevinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1549727EE11420087DB3D /* KevinView.swift */; };
+		EFF1549A27EE1A390087DB3D /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1549927EE1A390087DB3D /* SheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		EFF1548527EE009A0087DB3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFF1548727EE009C0087DB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFF1548A27EE009C0087DB3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFF1549127EE0C4F0087DB3D /* NonModalButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonModalButtonView.swift; sourceTree = "<group>"; };
+		EFF1549327EE0CBB0087DB3D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EFF1549727EE11420087DB3D /* KevinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KevinView.swift; sourceTree = "<group>"; };
+		EFF1549927EE1A390087DB3D /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,9 @@
 			children = (
 				EFF1548327EE009A0087DB3D /* ArtifactONEApp.swift */,
 				EFF1548527EE009A0087DB3D /* ContentView.swift */,
-				EFF1548727EE009C0087DB3D /* Assets.xcassets */,
+				EFF1549127EE0C4F0087DB3D /* NonModalButtonView.swift */,
+				EFF1549527EE0F6C0087DB3D /* UIkit */,
+				EFF1549627EE0F780087DB3D /* SwiftUI */,
 				EFF1548927EE009C0087DB3D /* Preview Content */,
 			);
 			path = ArtifactONE;
@@ -65,6 +75,24 @@
 				EFF1548A27EE009C0087DB3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFF1549527EE0F6C0087DB3D /* UIkit */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1549927EE1A390087DB3D /* SheetView.swift */,
+				EFF1549327EE0CBB0087DB3D /* Main.storyboard */,
+			);
+			path = UIkit;
+			sourceTree = "<group>";
+		};
+		EFF1549627EE0F780087DB3D /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1549727EE11420087DB3D /* KevinView.swift */,
+				EFF1548727EE009C0087DB3D /* Assets.xcassets */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF1549427EE0CBB0087DB3D /* Main.storyboard in Resources */,
 				EFF1548B27EE009C0087DB3D /* Preview Assets.xcassets in Resources */,
 				EFF1548827EE009C0087DB3D /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFF1548627EE009A0087DB3D /* ContentView.swift in Sources */,
+				EFF1549227EE0C4F0087DB3D /* NonModalButtonView.swift in Sources */,
+				EFF1549A27EE1A390087DB3D /* SheetView.swift in Sources */,
+				EFF1549827EE11420087DB3D /* KevinView.swift in Sources */,
 				EFF1548427EE009A0087DB3D /* ArtifactONEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
