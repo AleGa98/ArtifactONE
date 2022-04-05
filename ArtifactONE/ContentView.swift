@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        VStack{
+        
+        Text("Testing new implementations")
+                .font(.title)
+            
         NonModalButtonView()
+        
+        
+        }
     }
 }
 
