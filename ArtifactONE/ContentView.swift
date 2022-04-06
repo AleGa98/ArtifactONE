@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
         VStack{
         
-        Text("Testing new implementations")
+        Text("Test new implementations")
                 .font(.title)
             
         NonModalButtonView()

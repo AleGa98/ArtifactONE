@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct KevinView: View {
+    //@State  var ispresented : Bool
+   
     var body: some View {
-       
-        Image("Kevin")
-            .resizable()
-            .clipShape(Circle())
-            .scaledToFit()
-           
+        ZStack(alignment: .center){
+            
+                Image("Kevin")
+                    .resizable()
+                    .clipShape(Circle())
+                    .scaledToFill()
+                    
+            
+                Text("ContainerView")
+                    .font(.largeTitle)
+                    .bold()
+                    .foregroundColor(.red)
+                    
+        }.padding()
+        
         
     }
 }
